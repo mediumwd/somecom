@@ -219,9 +219,7 @@ a:hover {
     align-items: center;
     text-align: center;
 }
-.owp {
-    height: 10%;
-}
+
 .video {
     height: 60%;
     width: 60%;
@@ -353,6 +351,9 @@ footer .col{
     justify-content: space-around;
     align-items: flex-start;
 }
+#services2 {
+    display: none;
+}
 @media screen and (max-width: 900px) {
     .nav ul{
         display: none;
@@ -376,8 +377,30 @@ footer .col{
         width: 90%;
     }
 }
-
-
+@media screen and (max-width: 774px) {
+    .services {
+        padding: 7% 0;
+    }
+    #services .serv__img,
+    #services .servtitle {
+        display: none;
+    }
+    #services2 {
+        display: block;
+    }
+    #services2 .servtext {
+        display: none;
+    }
+    #services2 .serv__img{
+        margin: auto;
+    }
+    
+}
+@media screen and (max-width: 611px) {
+    .colholder{
+        display: none;
+    }
+}
 
 
 
