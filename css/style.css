@@ -11,7 +11,7 @@ body {
 .home,
 .about,
 .process {
-    height: 100vh;
+    height: 100%;
     box-sizing: border-box;
 }
 p {
@@ -99,7 +99,7 @@ a:hover {
 .skill,
 .team .photo{
     width: 50%;
-    height: 100%;
+    padding-bottom: 50px;
 }
 .skill h2{
     font-size: 30px;
@@ -142,14 +142,14 @@ a:hover {
 }
 .feed{
     background-color: #10c9c3;
-    height: 20%;
+    height: 100%;
 }
 .projects{
     height: 70%;
 }
 .projects-row1,
 .projects-row2 {
-    height: 50%;
+    height: 300px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -262,12 +262,12 @@ a:hover {
 }
 .testimonials{
     background-color: #10c9c3;
-    height: 40vh;
+    height: 100%;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20%;
+    padding: 0 5%;
 }
 .com {
     font-size: 24px;
@@ -279,15 +279,15 @@ a:hover {
     color: #fff;
 }
 .partners {
-    height: 15vh;
+    height: 100%;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
 }
 .contacts{
     background-color: #f5f5f5;
-    height: 70vh;
+    height: 100%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
@@ -401,8 +401,19 @@ footer .col{
         display: none;
     }
 }
-
-
+@media screen and (max-width: 550px) {
+    .servtitle {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 464px) {
+    .footer__contacts {
+        display: flex;
+    }
+    .home {
+        padding: 20px 0;
+    }
+}
 
 
 
