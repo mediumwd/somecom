@@ -378,6 +378,9 @@ footer .col{
     }
 }
 @media screen and (max-width: 774px) {
+    .projects-row1, .projects-row2 {
+        height: 200px;
+    }
     .services {
         padding: 7% 0;
     }
@@ -399,6 +402,9 @@ footer .col{
 @media screen and (max-width: 611px) {
     .colholder{
         display: none;
+    }
+    .projects-row1, .projects-row2 {
+        height: 150px;
     }
 }
 @media screen and (max-width: 550px) {
