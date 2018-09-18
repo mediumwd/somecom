@@ -29,7 +29,7 @@ $(document).ready(function () {
             , asNavFor: '#services2'
         });
         $('#services2').slick({
-            slidesToShow: 2
+            slidesToShow: 1
             , slidesToScroll: 1
             , asNavFor: '#services'
             , dots: false

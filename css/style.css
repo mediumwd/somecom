@@ -56,6 +56,7 @@ a:hover {
     justify-content: flex-end;
     align-items: center;
     height: 100%;
+    padding-top: 150px;
 }
 .wdd .t {
     width: 45%;
@@ -419,8 +420,44 @@ footer .col{
     .home {
         padding: 20px 0;
     }
+    .team {
+        position: relative;
+    }
+    .team .photo {
+        height: 150px;
+        padding: 0;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .team .skill {
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    .feed {
+        justify-content: flex-start;
+    }
+    .holderbig, .textsend {
+        width: 90%;
+    }
 }
-
+@media screen and (max-width: 422px) {
+    #services2 {
+        position: relative;
+    }
+    #services2:before {
+        content:"<";
+        position: absolute;
+        left: 20px;
+        top: 60px;
+    }
+    #services2:after {
+        content:">";
+        position: absolute;
+        right: 20px;
+        top: 60px;
+    }
+}
 
 
 
